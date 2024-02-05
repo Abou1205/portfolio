@@ -66,7 +66,7 @@ This is my personal portfolio website built using React. It showcases my skills,
 - Your Name
   - Email: ebu1205ed@gmail.com
   - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ebubekir-yilmaz/)
-  - Portfolio: [Portfolio](https://www.yourportfolio.com/)
+  - Portfolio: [Portfolio](https://ebubekiryilmaz.netlify.app)
   - GitHub: [GitHub](https://github.com/Abou1205)
 
 ## Gif
