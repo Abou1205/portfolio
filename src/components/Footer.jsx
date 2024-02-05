@@ -1,38 +1,34 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { PiFilePdf } from "react-icons/pi";
 
 const Footer = () => {
   return (
-    <footer className="bg-black-100 flex flex-col justify-center items-center gap-3 py-3">
-      <div className="flex gap-5">
-        <div
-          onClick={() => window.open("https://github.com/Abou1205", "_blank")}
-          className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:text-[#915eef]"
-        >
-          <FaGithub />
-        </div>
-        <div
-          onClick={() =>
-            window.open(
-              "https://www.linkedin.com/in/ebubekir-yilmaz/",
-              "_blank"
-            )
-          }
-          className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:text-[#915eef]"
-        >
-          <FaLinkedin />
-        </div>
+    <footer className="bg-black-100 flex justify-center items-center gap-3 py-3">
+      <div
+        onClick={() => window.open("https://github.com/Abou1205", "_blank")}
+        className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:text-[#915eef]"
+      >
+        <FaGithub />
+      </div>
+      <div
+        onClick={() =>
+          window.open("https://www.linkedin.com/in/ebubekir-yilmaz/", "_blank")
+        }
+        className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:text-[#915eef]"
+      >
+        <FaLinkedin />
       </div>
       <div
         onClick={() =>
           window.open(
-            "https://drive.google.com/file/d/1gyTWclXKkt75rUiuOWfIbS65iV-ulJdb/view",
+            "https://drive.google.com/file/d/1gyTWclXKkt75rUiuOWfIbS65iV-ulJdb/view?usp=sharing",
             "_blank"
           )
         }
-        className="font-bold cursor-pointer hover:text-[#915eef]"
+        className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:text-[#915eef]"
       >
-        Click to see my resume
+        <PiFilePdf />
       </div>
     </footer>
   );
