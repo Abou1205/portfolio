@@ -26,9 +26,9 @@ const Footer = () => {
             "_blank"
           )
         }
-        className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:text-[#915eef]"
+        className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer text-xs hover:text-[#915eef] "
       >
-        <PiFilePdf />
+        CV
       </div>
     </footer>
   );
