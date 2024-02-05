@@ -24,7 +24,7 @@ const Navbar = () => {
         >
           <img src={logo} className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Ebubekir &nbsp;{" "}
+            Ebubekir Yılmaz &nbsp;{" "}
             <span className="sm:block hidden">| React Developer</span>
           </p>
         </Link>
