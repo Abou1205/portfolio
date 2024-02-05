@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -21,14 +21,6 @@ const Footer = () => {
           className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:text-[#915eef]"
         >
           <FaLinkedin />
-        </div>
-        <div
-          onClick={() =>
-            window.open("https://www.instagram.com/ebubekr1905/", "_blank")
-          }
-          className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:text-[#915eef]"
-        >
-          <FaInstagram />
         </div>
       </div>
       <div
