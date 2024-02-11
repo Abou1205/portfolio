@@ -117,7 +117,7 @@ import {
       company_name: "MimCode",
       icon: mimcode,
       iconBg: "#383E56",
-      date: "January 2023 - Present",
+      date: "January 2022 - Present",
       points: [
         "Creating numerous web pages and animations independently as well as collaboratively with a team.",
         "Proficiency in crafting diverse web pages using HTML, CSS, and Bootstrap.",
