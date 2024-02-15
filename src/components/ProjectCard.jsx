@@ -12,10 +12,10 @@ const ProjectCard = ({ project, index }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
-        className="bg-tertiary p-5 rounded-2xl sm:w-[350px]"
-        options={{ max: 45, scale: 1, speed: 450 }}
+        className="bg-tertiary p-5 rounded-2xl w-full"
+        options={{ max: 10, scale: 1, speed: 450 }}
       >
-        <div className="relative w-full h-[230px]">
+        <div className="relative w-full h-[300px]">
           <img src={image} className="w-full h-full object-cover rounded-2xl" />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">

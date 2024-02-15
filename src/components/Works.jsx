@@ -1,10 +1,12 @@
-import {motion} from 'framer-motion'
+import { motion } from "framer-motion";
 
-import { styles } from "../style"
-import { SectionWrapper } from "../hoc"
-import { projects } from "../constants"
-import { fadeIn, textVariant } from "../utils/motion"
-import ProjectCard from './ProjectCard'
+import { styles } from "../style";
+import { SectionWrapper } from "../hoc";
+import { projects } from "../constants";
+import { fadeIn, textVariant } from "../utils/motion";
+import ProjectCard from "./ProjectCard";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css/sea-green";
 
 const Works = () => {
   return (
@@ -15,18 +17,34 @@ const Works = () => {
       </motion.div>
 
       <div className="w-full flex">
-        <motion.p variants={fadeIn('','',0.1,1)} className="mt-3 text-secondary text-[17px] text-justify leading-[30px]">
-        Welcome to a curated collection of projects that not only showcase my skills but also serve as real-world examples of my work. Each project represents a journey into solving complex problems, leveraging various technologies, and effectively managing the project lifecycle. Dive in to explore:
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className="mt-3 text-secondary text-[17px] text-justify leading-[30px]"
+        >
+          Welcome to a curated collection of projects that not only showcase my
+          skills but also serve as real-world examples of my work. Each project
+          represents a journey into solving complex problems, leveraging various
+          technologies, and effectively managing the project lifecycle. Dive in
+          to explore:
         </motion.p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {projects.map((project,index) => (
-          <ProjectCard key={`project-${index}`} project={project} index={index} />
-        ))}
+        <Splide
+          options={{
+            width: "70rem",
+            pagination: true,
+          }}
+        >
+          {projects.map((project, index) => (
+            <SplideSlide key={`project-${index}`}>
+              <ProjectCard project={project} index={index} />
+            </SplideSlide>
+          ))}
+        </Splide>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default SectionWrapper(Works, '')
+export default SectionWrapper(Works, "");

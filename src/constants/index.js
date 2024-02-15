@@ -18,6 +18,7 @@ import {
     mimcode,
     translate,
     netflix,
+    coin,
     youtube,
     threejs,
   } from "../assets";
@@ -197,6 +198,29 @@ import {
       source_code_link: "https://github.com/Abou1205/youtube-clone",
       source_demo_link: "https://react-youtubee-clonee.netlify.app"
     },
+    {
+      name: "CoinTime",
+      description:
+        "The Crypto Explorer website, built with React, offers a simplified way to explore real-time cryptocurrency data. It provides an interactive interface showcasing live price updates, historical charts, and portfolio tracking.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "react-router-dom",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: coin,
+      source_code_link: "https://github.com/Abou1205/cointime",
+      source_demo_link: "https://cointime.netlify.app"
+    },
+    
   ];
   
   export { services, technologies, experiences, projects };
