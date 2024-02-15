@@ -29,7 +29,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap gap-7 items-center justify-center">
         <Splide
           options={{
             width: "70rem",
@@ -48,7 +48,7 @@ const Works = () => {
                 width: "25rem",
               },
               445: {
-                width: "22rem",
+                width: "24rem",
               },
               400: {
                 width: "20rem",
