@@ -34,6 +34,17 @@ const Works = () => {
           options={{
             width: "70rem",
             pagination: true,
+            breakpoints: {
+              785: {
+                width: "35rem",
+              },
+              585: {
+                width: "32rem",
+              },
+              400: {
+                width: "23rem",
+              },
+            },
           }}
         >
           {projects.map((project, index) => (
