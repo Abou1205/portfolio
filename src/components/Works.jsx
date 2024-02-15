@@ -39,7 +39,7 @@ const Works = () => {
                 width: "35rem",
               },
               585: {
-                width: "32rem",
+                width: "30rem",
               },
               400: {
                 width: "23rem",
