@@ -29,6 +29,7 @@ import translate from "./translate.png";
 import netflix from "./netflix.png";
 import youtube from "./youtube.png";
 import coin from './coin.png'
+import twitter from './twitter.png'
 
 export {
   logo,
@@ -57,5 +58,6 @@ export {
   translate,
   netflix,
   youtube,
-  coin
+  coin,
+  twitter
 };
