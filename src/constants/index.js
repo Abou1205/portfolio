@@ -22,6 +22,7 @@ import {
   youtube,
   threejs,
   twitter,
+  chatapp
 } from "../assets";
 
 export const navLinks = [
@@ -133,28 +134,6 @@ const experiences = [
 
 const projects = [
   {
-    name: "Translate App",
-    description:
-      "Welcome to the Translator App, a powerful language translation application built with React, Redux, and Thunk. This app provides a seamless and intuitive experience for users to translate text between different languages, offering a range of features to enhance language translation capabilities.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux-toolkit",
-        color: "green-text-gradient",
-      },
-      {
-        name: "sass",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: translate,
-    source_code_link: "https://github.com/Abou1205/thunk-translate",
-    source_demo_link: "https://thunk-translate.netlify.app",
-  },
-  {
     name: "Netflix Clone",
     description:
       "The Netflix Clone Project is a front-end web application that replicates the user interface of the popular streaming platform Netflix. It serves as a learning project to demonstrate proficiency in React, state management with Redux, and integration with external APIs using Axios.",
@@ -221,6 +200,28 @@ const projects = [
     source_demo_link: "https://cointime.netlify.app",
   },
   {
+    name: "Translate App",
+    description:
+      "Welcome to the Translator App, a powerful language translation application built with React, Redux, and Thunk. This app provides a seamless and intuitive experience for users to translate text between different languages, offering a range of features to enhance language translation capabilities.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux-toolkit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sass",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: translate,
+    source_code_link: "https://github.com/Abou1205/thunk-translate",
+    source_demo_link: "https://thunk-translate.netlify.app",
+  },
+  {
     name: "Twitter",
     description:
       "A simple Twitter clone built using React and Firebase for authentication. This project allows users to sign in using Firebase authentication, enabling them to create, read, and interact with tweets in real-time.",
@@ -241,6 +242,28 @@ const projects = [
     image: twitter,
     source_code_link: "https://github.com/Abou1205/twitterclone",
     source_demo_link: "https://firebasetwitterclone.netlify.app",
+  },
+  {
+    name: "Chat App",
+    description:
+      "This project is a versatile and user-friendly chat application designed to streamline communication and foster real-time connections, the application allows users to sign in securely using Firebase credentials.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sass",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chatapp,
+    source_code_link: "https://github.com/Abou1205/chatApp",
+    source_demo_link: "https://vitechatapp.netlify.app",
   },
 ];
 

@@ -16,7 +16,10 @@ const ProjectCard = ({ project, index }) => {
         options={{ max: 10, scale: 1, speed: 450 }}
       >
         <div className="relative w-full h-[300px]">
-          <img src={image} className="w-full h-full object-cover rounded-2xl" />
+          <img
+            src={image}
+            className="w-full h-full object-contain rounded-2xl"
+          />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div

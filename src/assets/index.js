@@ -30,6 +30,7 @@ import netflix from "./netflix.png";
 import youtube from "./youtube.png";
 import coin from './coin.png'
 import twitter from './twitter.png'
+import chatapp from './chatapp.png'
 
 export {
   logo,
@@ -59,5 +60,6 @@ export {
   netflix,
   youtube,
   coin,
-  twitter
+  twitter,
+  chatapp
 };
